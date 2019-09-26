@@ -1,10 +1,10 @@
-<svg width="640" height="300" xmlns="http://www.w3.org/2000/svg" >
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
  
-  <rect fill="#2b75bf" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" 
-        x="37" y="149" width="576" height="118" id="svg_1"/>
-  <text fill="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="311" y="215.68478" 
-        id="svg_2" font-size="24" font-family="Comic Sans MS" text-anchor="middle" xml:space="preserve" 
+  <rect id="svg_1" height="118" width="576" y="9" x="36" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" 
+        stroke-width="5" stroke="#000000" fill="#2b75bf"/>
+  <text font-weight="bold" font-style="normal" stroke="#000000" 
         transform="matrix(2.8277482859798293,0,0,3.1724138259887695,-551.2326158529645,-452.8620762825012) " 
-        stroke="#000000" font-style="normal" font-weight="bold">Nick&#x27;s Website !</text>
- 
+        xml:space="preserve" text-anchor="middle" font-family="Comic Sans MS" font-size="24" id="svg_2" y="172.18478" x="309.93909" 
+        stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">Nick&#x27;s Website !</text>
+
 </svg>
