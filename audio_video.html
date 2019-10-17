@@ -25,6 +25,11 @@
         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen></iframe>
 
-        <p>(write the difference between 2 and 3 here)</p>
+        <p>In the videos above, one is embeded from YouTube and the other uses a video file with a specific format(s).</p>
+        <p>The first video (binary numbers) is "streaming" from a local file, which is stored in the websites directory, accessed by a relative path, using video tags.</p>
+        <p>The second video, the YouTube video, is embedded in iframe tags, and uses an absolute URL.</p>
+        <p>Both videos require attributes such as width, height, and src, but they use different tags/elements to achieve this.</p>
+        <p>The html video element has nested source tags to specify the source (usually more than 1 format is available), whereas the YouTube video uses an iframe element to hold the src attribute.</p>
+        <p>Each of the tags also uses some of their own unique attributes, depending on if it is a YouTube video or a .mp4 or .mov, etc.</p>
     </body>
 </html>
