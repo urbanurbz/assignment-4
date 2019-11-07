@@ -3,29 +3,29 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-fieldset, form{ 
+.event_form, .event_form form{ 
     padding: 20px;
     margin: auto;
     width: 55%;
     background: olive;
 }
 
-form p {
+.event_form p {
     font-family: "Arial Black", Gadget, sans-serif;
     width: fit-content;
 }
 
-legend {
+.event_form legend {
     font-family: "Arial Black", Gadget, sans-serif;
 }
 
-fieldset, form, form p, legend, form textarea {
+.event_form, .event_form form, .event_form p, .event_form legend, .event_form textarea {
     border: mediumblue;
     border-width: 5px;
     border-style: double;
 }
 
-fieldset a, .submit {
+.event_form a, .submit {
     border: darkorange;
     border-width: 5px;
     border-style: outset;
