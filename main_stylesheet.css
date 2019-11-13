@@ -32,13 +32,19 @@
 }
 
 @media screen and (max-width: 480px) {
-    background-color: green;
+    * {
+        background-color: green;
+    }
 }
 
 @media screen and (min-width: 480) and (max-width: 1024px) {
-    background-color: blue;
+    * {
+        background-color: blue;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-    background-color: purple;
+    * {
+        background-color: red;
+    }
 }
