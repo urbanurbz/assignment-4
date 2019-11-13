@@ -31,3 +31,14 @@
     border-style: outset;
 }
 
+@media screen and (max-width: 480px) {
+    background-color: green;
+}
+
+@media screen and (min-width: 480) and (max-width: 1024px) {
+    background-color: blue;
+}
+
+@media screen and (min-width: 1024px) {
+    background-color: purple;
+}
