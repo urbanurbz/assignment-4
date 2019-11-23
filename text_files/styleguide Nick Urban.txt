@@ -1,0 +1,31 @@
+
+			------------
+			Colors used:
+			------------
+
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+#FF8C00 || rgb(255, 140, 0) || orange color
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+#808000 || rgb(128, 128, 0) || olive color
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+#0000CD || rgb(0, 0, 205)   || blue color
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+#5DA800 || rgb(93, 168, 0)  || green color
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+#E8D100 || rgb(232, 209, 0) || yellow color
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+-------------------------------------------------------------------------
+For this assignment, I dabbled in all the websites for colors listed on 
+Blackboard, but I found the https://color.adobe.com/create to be the most
+useful for this assignment. I liked the color wheel in particular and 
+ability to change the colors easily to see the changes and differences.
+
+I chose the colors personally and tweaked them to my liking. I kept the
+original orange color as the background color for my entire website. 
+-------------------------------------------------------------------------
