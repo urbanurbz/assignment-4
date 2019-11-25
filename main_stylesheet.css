@@ -69,11 +69,11 @@
 
 /* assignment 12 download link */
 
-.assign12 {
+.assign12, .quiz_11_25 {
     color: #e8d100;
 }
 
-.assign12 a {
+.assign12 a, .quiz_11_25 a {
     color: #808000;
 }
 
