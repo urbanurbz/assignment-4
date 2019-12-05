@@ -6,11 +6,12 @@
     background-color: #ff8c00;
 }
 
-.content {
-
-    /* padding: 20px; */ 
-    margin: auto;
+.content { 
+    
     width: 55%;
+    margin: auto;
+    
+    
 }
 
 /* top navigation bar */
@@ -23,13 +24,15 @@
     padding-bottom: 10px;
     padding-top: 10px;
     background-color: #e8d100;
+    
 }
 
 .topnav h5 {
     display: inline;
+    
+    
     padding-left: 10px;
     padding-right: 10px;
-    
     padding-bottom: 5px;
     padding-top: 5px;
     border-style: solid;
@@ -42,16 +45,16 @@
 }
 
 
-/* web forms */
+/* web forms & table*/
 
-.web_form, .web_form form { 
+.web_form, .web_form form, table { 
     padding: 20px;
     margin: auto;
     width: 55%;
     background: #808000;
 }
 
-.web_form p {
+.web_form p, table {
     font-family: "Arial Black", Gadget, sans-serif;
     width: fit-content;
 }
@@ -60,7 +63,7 @@
     font-family: "Arial Black", Gadget, sans-serif;
 }
 
-.web_form, .web_form form, .web_form p, .web_form legend, .web_form textarea {
+.web_form, .web_form form, .web_form p, .web_form legend, .web_form textarea, table, td, th {
     border: #0000cd;
     border-width: 5px;
     border-style: double;
@@ -71,7 +74,11 @@
     border-width: 5px;
     border-style: outset;
     margin: auto;
-    width: 55%;
+    width: 25%;
+}
+
+table {
+    margin-bottom: 10px;
 }
 
 
@@ -83,9 +90,10 @@
     border-width: 5px;
     border-style: double;
 
-
+    margin-bottom: 10px;
     padding: 20px;
-    margin: auto;
+    margin-right: auto; 
+    margin-left: auto; 
     width: 40%;
 
 
@@ -95,10 +103,17 @@
     color: #808000;
 }
 
-/*
+/* banner on top of webpages */ 
 .banner {
+    max-width: 100%;
+    height: auto;
 }
- */
+
+.images img{
+    width: 50%;
+    height: auto;
+}
+ 
 
 /*
 
