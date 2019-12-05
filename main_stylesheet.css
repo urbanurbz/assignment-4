@@ -6,6 +6,12 @@
     background-color: #ff8c00;
 }
 
+.content {
+
+    /* padding: 20px; */ 
+    margin: auto;
+    width: 55%;
+}
 
 /* top navigation bar */
 
@@ -36,50 +42,63 @@
 }
 
 
-/* event form */
+/* web forms */
 
-.event_form, .event_form form { 
+.web_form, .web_form form { 
     padding: 20px;
     margin: auto;
     width: 55%;
     background: #808000;
 }
 
-.event_form p {
+.web_form p {
     font-family: "Arial Black", Gadget, sans-serif;
     width: fit-content;
 }
 
-.event_form legend {
+.web_form legend {
     font-family: "Arial Black", Gadget, sans-serif;
 }
 
-.event_form, .event_form form, .event_form p, .event_form legend, .event_form textarea {
+.web_form, .web_form form, .web_form p, .web_form legend, .web_form textarea {
     border: #0000cd;
     border-width: 5px;
     border-style: double;
 }
 
-.event_form a, .submit {
+.web_form a, .submit {
     border: #ff8c00;
     border-width: 5px;
     border-style: outset;
+    margin: auto;
+    width: 55%;
 }
 
 
-/* assignment 12 download link */
+/* assignment links */
 
-.assign12, .quiz_11_25 {
+.assignment {
     color: #e8d100;
+    border: #0000cd;
+    border-width: 5px;
+    border-style: double;
+
+
+    padding: 20px;
+    margin: auto;
+    width: 40%;
+
+
 }
 
-.assign12 a, .quiz_11_25 a {
+.assignment a  {
     color: #808000;
 }
 
-
-/* media queries for different screen sizes */
-
+/*
+.banner {
+}
+ */
 
 /*
 

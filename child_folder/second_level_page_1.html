@@ -12,18 +12,20 @@
     <link rel="stylesheet" href="../main_stylesheet.css" type="text/css">
   </head>
   <body>    
-    <div class="topnav">
-        <a href="../index.html"><h5>Nick's website</h5></a>
-        <a href="../additional_page.html"><h5>More info</h5></a>
-        <a href="../event_form.html"><h5>Create event</h5></a>
-        <a href="../audio_video.html"><h5>Audio & video</h5></a>
-        <a href="../assignment_8.5/styled.html"><h5>Assignment 8.5</h5></a>
-        <a href="second_level_page_1.html"><h5>1st level page</h5></a>
-        <a href="second_level_page_2.html"><h5>2nd level page</h5></a>
-        <a href="second_level_page_3.html"><h5>3rd level page</h5></a>
-    </div>
+      <div class="topnav">
+          <a href="../index.html"><h5>Nick's website</h5></a>
+          <a href="../additional_page.html"><h5>Assignments</h5></a>
+          <a href="../event_form.html"><h5>Create event</h5></a>
+          <a href="../audio_video.html"><h5>Audio & Video</h5></a>
+          <a href="second_level_page_1.html"><h5>Languages</h5></a>
+          <a href="second_level_page_2.html"><h5>Interests</h5></a>
+          <a href="second_level_page_3.html"><h5>People</h5></a>
+      </div>
     <div class="undernav"></div>
-    <img src="../images/banner.svg" alt="a banner displaying the words 'Nicks webpage"/>
+
+    <div class="content"> <!---->   
+
+    <img class="banner" src="../images/banner.svg" alt="a banner displaying the words 'Nicks webpage"/>
     <p>Here is a little bit about my experience with different programming languages.</p>
     <p>The following table lists the name of the programming language and my familiarity with it.</p>
     <p>I have also listed programming languages I have no experience in, which I plan on becoming familiar with.</p>
@@ -71,14 +73,21 @@
         <td colspan="3"><p><a href="https://www.codecademy.com/">Link to codecademy.com</a>, where I first dabbled in "coding."</p></td>
       </tr>
     </table>
-    <h3>Topic</h3>
-    <p>some content</p>
-    <p>more content</p>
-    <p>more content</p>
-    <h3>Topic</h3>
-    <p>some content</p>
-    <p>more content</p>
+    
+    <form class="web_form" method="get">
+        <p>select any option(s) below to tell me what interests you about computers:
+          <br />
+          <input type="checkbox" name="interests" value="software development" />Software Development
+          <input type="checkbox" name="interests" value="web development" />Web Development
+          <input type="checkbox" name="interests" value="networking" />Networking
+          <input type="checkbox" name="interests" value="hardware" />Hardware
+          <input type="checkbox" name="interests" value="tech support" />Tech Support
+        </p>
+      </form>
+
     <p><em>Maynard James Keenan (from the band TooL)</em></p>
     <img src="../images/Maynard.jpg" alt="a picture of Maynard James Keenan"/>
+
+  </div> <!---->
   </body>
 </html>
