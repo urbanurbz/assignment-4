@@ -1,63 +1,80 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-        
-        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        
-        <link rel="stylesheet" href="main_stylesheet.css" type="text/css">
-    </head>
-    <body>
-            <div class="topnav">
-                    <a href="index.html"><h5>Nick's website</h5></a>
-                    <a href="additional_page.html"><h5>Assignments</h5></a>
-                    <a href="event_form.html"><h5>Create event</h5></a>
-                    <a href="audio_video.html"><h5>Audio & Video</h5></a>
-                    <a href="child_folder/second_level_page_1.html"><h5>Languages</h5></a>
-                    <a href="child_folder/second_level_page_2.html"><h5>Interests</h5></a>
-                    <a href="child_folder/second_level_page_3.html"><h5>People</h5></a>
-                </div>
-                <div class="undernav"></div>
-        <fieldset class="web_form">
-            <legend>The Big Event</legend>
-            <form action="" method="get">
-                <p>Event Title:
-                    <input type="text" name="title" size="25" maxlength="40" >
-                </p>
-                <p>Start Date & Time:
-                    <input type="datetime-local" name="startdate" >
-                </p>
-                <p>End Date & Time:
-                    <input type="datetime-local" name="enddate" >
-                </p>
-                <p>Description of the event:</p>
-                    <textarea name="description" cols="30" rows="5" ></textarea>
-                <p>About the host:</p>
-                    <textarea name="host" cols="30" rows="5" ></textarea>
-                <p>List of guests:</p>
-                    <textarea name="guests" cols="30" rows="5" ></textarea>
-                <p>Drinks for guests:
-                    <br />
-                    <input id="beer" type="checkbox" name="drinks" value="b" />
-                    <label for="beer">Beer</label>
-                    <input id="wine" type="checkbox" name="drinks" value="w" />
-                    <label for="wine">Wine</label>
-                    <input id="liquor" type="checkbox" name="drinks" value="l" />
-                    <label for="liquor">Liquor</label>
-                </p>
-                <p>Will there be live music and entertainment?:
-                    <br />
-                    <input id="music-yes" type="radio" name="music" value="y" />
-                    <label for="music-yes">Yes</label>
-                    <input id="music-yesyes" type="radio" name="music" value="yy" />
-                    <label for="music-yesyes">Double-Yes</label>
-                </p>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="stylesheet" href="main_stylesheet.css" type="text/css">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">
+            <h5>Nick's website</h5>
+        </a>
+        <a href="additional_page.html">
+            <h5>Assignments</h5>
+        </a>
+        <a href="event_form.html">
+            <h5>Create event</h5>
+        </a>
+        <a href="audio_video.html">
+            <h5>Audio & Video</h5>
+        </a>
+        <a href="child_folder/second_level_page_1.html">
+            <h5>Languages</h5>
+        </a>
+        <a href="child_folder/second_level_page_2.html">
+            <h5>Interests</h5>
+        </a>
+        <a href="child_folder/second_level_page_3.html">
+            <h5>People</h5>
+        </a>
+    </div>
+    <div class="undernav"></div>
+    <fieldset class="web_form">
+        <legend>The Big Event</legend>
+        <form action="" method="get">
+            <p>Event Title:
+                <input type="text" name="title" size="25" maxlength="40">
+            </p>
+            <p>Start Date & Time:
+                <input type="datetime-local" name="startdate">
+            </p>
+            <p>End Date & Time:
+                <input type="datetime-local" name="enddate">
+            </p>
+            <p>Description of the event:</p>
+            <textarea name="description" cols="30" rows="5"></textarea>
+            <p>About the host:</p>
+            <textarea name="host" cols="30" rows="5"></textarea>
+            <p>List of guests:</p>
+            <textarea name="guests" cols="30" rows="5"></textarea>
+            <p>Drinks for guests:
                 <br />
-                <input class="submit" type="submit" value="Submit" />
-            </form>   
-        </fieldset>        
-    </body>
+                <input id="beer" type="checkbox" name="drinks" value="b" />
+                <label for="beer">Beer</label>
+                <input id="wine" type="checkbox" name="drinks" value="w" />
+                <label for="wine">Wine</label>
+                <input id="liquor" type="checkbox" name="drinks" value="l" />
+                <label for="liquor">Liquor</label>
+            </p>
+            <p>Will there be live music and entertainment?:
+                <br />
+                <input id="music-yes" type="radio" name="music" value="y" />
+                <label for="music-yes">Yes</label>
+                <input id="music-yesyes" type="radio" name="music" value="yy" />
+                <label for="music-yesyes">Double-Yes</label>
+            </p>
+            <br />
+            <input class="submit" type="submit" value="Submit" />
+        </form>
+    </fieldset>
+</body>
+
 </html>

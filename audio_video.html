@@ -1,36 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<head>
 
-        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        <link rel="stylesheet" href="main_stylesheet.css" type="text/css">
-        </head>
-    <body>
-            <div class="topnav">
-                    <a href="index.html"><h5>Nick's website</h5></a>
-                    <a href="additional_page.html"><h5>Assignments</h5></a>
-                    <a href="event_form.html"><h5>Create event</h5></a>
-                    <a href="audio_video.html"><h5>Audio & Video</h5></a>
-                    <a href="child_folder/second_level_page_1.html"><h5>Languages</h5></a>
-                    <a href="child_folder/second_level_page_2.html"><h5>Interests</h5></a>
-                    <a href="child_folder/second_level_page_3.html"><h5>People</h5></a>
-                </div>
-                <div class="undernav"></div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-                <div class="content"> <!---->   
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="main_stylesheet.css" type="text/css">
+</head>
 
-                <img class="banner" src="images/banner.svg" alt="a banner displaying the words 'Nicks webpage"/>
+<body>
+    <div class="topnav">
+        <a href="index.html">
+            <h5>Nick's website</h5>
+        </a>
+        <a href="additional_page.html">
+            <h5>Assignments</h5>
+        </a>
+        <a href="event_form.html">
+            <h5>Create event</h5>
+        </a>
+        <a href="audio_video.html">
+            <h5>Audio & Video</h5>
+        </a>
+        <a href="child_folder/second_level_page_1.html">
+            <h5>Languages</h5>
+        </a>
+        <a href="child_folder/second_level_page_2.html">
+            <h5>Interests</h5>
+        </a>
+        <a href="child_folder/second_level_page_3.html">
+            <h5>People</h5>
+        </a>
+    </div>
+    <div class="undernav"></div>
+
+    <div class="content">
+        <!---->
+
+        <img class="banner" src="images/banner.svg" alt="a banner displaying the words 'Nicks webpage" />
         <h3>HTML5 audio:</h3>
         <audio controls loop>
             <source src="audio/storm.mp3">
             <source src="audio/storm.ogg">
             <p>This browser doesn't support the required audio format(s)</p>
-        </audio>        
+        </audio>
 
         <h3>HTML5 video:</h3>
         <video width="400" height="320" preload controls loop>
@@ -40,19 +57,24 @@
         </video>
 
         <h3>YouTube video:</h3>
-        <iframe width="560" height="315" 
-        src="https://www.youtube.com/embed/J7n7l8L3Bx0" 
-        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/J7n7l8L3Bx0" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        <p>In the videos above, one is embeded from YouTube and the other uses a video file with a specific format(s).</p>
-        <p>The first video (binary numbers) is "streaming" from a local file, which is stored in the websites directory, accessed by a relative path, using video tags.</p>
+        <p>In the videos above, one is embeded from YouTube and the other uses a video file with a specific format(s).
+        </p>
+        <p>The first video (binary numbers) is "streaming" from a local file, which is stored in the websites directory,
+            accessed by a relative path, using video tags.</p>
         <p>The second video, the YouTube video, is embedded in iframe tags, and uses an absolute URL.</p>
-        <p>Both videos require attributes such as width, height, and src, but they use different tags/elements to achieve this.</p>
-        <p>The html video element has nested source tags to specify the source (usually more than 1 format is available), whereas the YouTube video uses an iframe element to hold the src attribute.</p>
-        <p>Each of the tags also uses some of their own unique attributes, depending on if it is a YouTube video using an iframe, or uses the video tags (for a file like .mp4, .mov, etc).</p>
-    
-    </div> <!---->
-    
-    </body>
+        <p>Both videos require attributes such as width, height, and src, but they use different tags/elements to
+            achieve this.</p>
+        <p>The html video element has nested source tags to specify the source (usually more than 1 format is
+            available), whereas the YouTube video uses an iframe element to hold the src attribute.</p>
+        <p>Each of the tags also uses some of their own unique attributes, depending on if it is a YouTube video using
+            an iframe, or uses the video tags (for a file like .mp4, .mov, etc).</p>
+
+    </div>
+    <!---->
+
+</body>
+
 </html>
