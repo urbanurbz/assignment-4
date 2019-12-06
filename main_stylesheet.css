@@ -113,7 +113,10 @@ table {
     width: 50%;
     height: auto;
 }
- 
+
+.invisible {
+    visibility: hidden;
+}
 
 /*
 
