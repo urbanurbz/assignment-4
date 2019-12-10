@@ -1,39 +1,44 @@
-<<<<<<< HEAD
-    /* universal style rules */
-    
-    * {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: #ff8c00;
+/* universal style rules */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff8c00;
+}
+
+
+/******************************/
+
+
+/*media query for smartphones */
+
+
+/******************************/
+
+@media screen and (min-width: 320px) and (max-width: 723px) {
+    /* top navigation bar */
+    .nav_menu {
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border-style: solid;
+        border-color: #0000cd;
+        background-color: #5da800;
+        margin-bottom: 50px;
     }
-    /******************************/
-    /*media query for smartphones */
-    /******************************/
-    
-    @media screen and (min-width: 320px) and (max-width: 723px) {
-        /* top navigation bar */
-        .nav_menu {
-            z-index: 1;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            text-align: center;
-            padding-bottom: 5px;
-            padding-top: 5px;
-            border-style: solid;
-            border-color: #0000cd;
-            background-color: #5da800;
-            margin-bottom: 50px;
-        }
-        .nav_menu {
-            background-color: #5da800;
-        }
-        .topnav {
-            display: none;
-        }
+    .nav_menu {
+        background-color: #5da800;
     }
-    
-=======
+    .topnav {
+        display: none;
+    }
+}
+
+
 /* universal style rules */
 
 * {
@@ -72,11 +77,9 @@
     .topnav {
         display: none;
     }
->>>>>>> parent of da30afe... breakpoints pretty much DONE!!
     .nav_menu:hover .topnav {
         display: block;
     }
-    
     .nav_menu:hover .topnav {
         position: fixed;
         top: 0;
@@ -87,12 +90,10 @@
         background-color: #e8d100;
         z-index: 2;
     }
-    
     .nav_menu:hover .topnav a {
         background-color: #e8d100;
         text-decoration: none;
     }
-    
     .nav_menu:hover .topnav h5 {
         text-align: center;
         padding-bottom: 5px;
@@ -101,19 +102,16 @@
         border-color: #0000cd;
         background-color: #5da800;
     }
-    
     .nav_menu:hover .active h5,
     .nav_menu:hover .active a {
         background-color: #0000cd;
         color: #ff8c00;
         border-color: #5da800;
     }
-    
     .undernav {
         margin-top: 80px;
     }
     /* web forms & table*/
-    
     .web_form,
     .web_form form,
     table {
@@ -122,17 +120,14 @@
         width: 55%;
         background: #808000;
     }
-    
     .web_form p,
     table {
         font-family: "Arial Black", Gadget, sans-serif;
         width: fit-content;
     }
-    
     .web_form legend {
         font-family: "Arial Black", Gadget, sans-serif;
     }
-    
     .web_form,
     .web_form form,
     .web_form p,
@@ -145,7 +140,6 @@
         border-width: 5px;
         border-style: double;
     }
-    
     .web_form a,
     .submit {
         border: #ff8c00;
@@ -154,27 +148,22 @@
         margin: auto;
         width: 25%;
     }
-    
     .web_form p,
     .web_form textarea {
         width: auto;
     }
-    
     .web_form input,
     .web_form textarea {
         width: 90%;
     }
-    
     table {
         margin-bottom: 10px;
     }
-    
     .web_form input[type=checkbox],
     .web_form input[type=radio] {
         width: auto;
     }
     /* assignment links */
-    
     .assignment {
         color: #e8d100;
         border: #0000cd;
@@ -186,47 +175,38 @@
         margin-left: auto;
         width: 40%;
     }
-    
     .assignment a {
         color: #808000;
     }
     /* banner on top of webpages */
-    
     .banner {
         max-width: 100%;
         height: auto;
     }
-    
     .images img {
         width: 50%;
         height: auto;
     }
-    
     .invisible {
         visibility: hidden;
     }
-    
     video,
     iframe {
         width: 100%;
         height: 100%;
     }
-    
     video,
     iframe,
     audio {
         margin-bottom: 20px;
     }
-    
     .invisible,
     .pic_gone {
         display: none;
     }
-<<<<<<< HEAD
     /**************************/
     /*media query for smartphone landscape view and tablet portriat view */
     /**************************/
-    
     @media screen and (min-width: 724px) and (max-width: 991px) {
         .content {
             width: 75%;
@@ -363,7 +343,6 @@
     /*********************************/
     /*general content for desk/laptop*/
     /*********************************/
-    
     @media screen and (min-width: 992px) {
         .content {
             width: 55%;
@@ -475,7 +454,6 @@
             visibility: hidden;
         }
     }
-=======
 }
 
 
@@ -607,4 +585,3 @@
         visibility: hidden;
     }
 }
->>>>>>> parent of da30afe... breakpoints pretty much DONE!!
