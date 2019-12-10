@@ -38,47 +38,59 @@
     </div>
     <div class="undernav"></div>
     <div class="content">
-            <img class="banner" src="images/banner.svg" alt="a banner displaying the words 'Nicks webpage" />
+        <img class="banner" src="images/banner.svg" alt="a banner displaying the words 'Nicks webpage" />
     </div>
-    <!--Warning!! the form below is not in the .content class, perhaps make a separate .eventform class?-->
     <fieldset class="web_form">
-            <legend>The Big Event</legend>
-            <form action="" method="get">
-                <p>Event Title:
-                    <input type="text" name="title" size="25" maxlength="40">
-                </p>
-                <p>Start Date & Time:
-                    <input type="datetime-local" name="startdate">
-                </p>
-                <p>End Date & Time:
-                    <input type="datetime-local" name="enddate">
-                </p>
-                <p>Description of the event:</p>
-                <textarea name="description" cols="30" rows="5"></textarea>
-                <p>About the host:</p>
-                <textarea name="host" cols="30" rows="5"></textarea>
-                <p>List of guests:</p>
-                <textarea name="guests" cols="30" rows="5"></textarea>
-                <p>Drinks for guests:
-                    <br />
-                    <input id="beer" type="checkbox" name="drinks" value="b" />
-                    <label for="beer">Beer</label>
-                    <input id="wine" type="checkbox" name="drinks" value="w" />
-                    <label for="wine">Wine</label>
-                    <input id="liquor" type="checkbox" name="drinks" value="l" />
-                    <label for="liquor">Liquor</label>
-                </p>
-                <p>Will there be live music and entertainment?:
-                    <br />
-                    <input id="music-yes" type="radio" name="music" value="y" />
-                    <label for="music-yes">Yes</label>
-                    <input id="music-yesyes" type="radio" name="music" value="yy" />
-                    <label for="music-yesyes">Double-Yes</label>
-                </p>
+        <legend>The Big Event</legend>
+        <form action="" method="get">
+            <p>Event Title:
+                <input type="text" name="title" size="25" maxlength="40">
+            </p>
+            <p>Start Date & Time:
+                <input type="datetime-local" name="startdate">
+            </p>
+            <p>End Date & Time:
+                <input type="datetime-local" name="enddate">
+            </p>
+            <p>Description of the event:</p>
+            <textarea name="description" cols="30" rows="5"></textarea>
+            <p>About the host:</p>
+            <textarea name="host" cols="30" rows="5"></textarea>
+            <p>List of guests:</p>
+            <textarea name="guests" cols="30" rows="5"></textarea>
+            <p>Drinks for guests:
                 <br />
-                <input class="submit" type="submit" value="Submit" />
-            </form>
-        </fieldset>
+
+                <input id="beer" type="checkbox" name="drinks" value="b" />
+                <label for="beer">Beer</label>
+                <br>
+
+
+                <input id="wine" type="checkbox" name="drinks" value="w" />
+                <label for="wine">Wine</label>
+                <br>
+
+                <input id="cocktails" type="checkbox" name="drinks" value="l" />
+                <label for="cocktails">Cocktails</label>
+                <br>
+
+            </p>
+            <p>Will there be live music?
+                <br />
+
+                <input id="music-yes" type="radio" name="music" value="y" />
+                <label for="music-yes">Yes</label>
+                <br>
+                <input id="music-yesyes" type="radio" name="music" value="yy" />
+                <label for="music-yesyes">Double-Yes</label>
+                <br>
+
+
+            </p>
+            <br />
+            <input class="submit" type="submit" value="Submit" />
+        </form>
+    </fieldset>
 </body>
 
 </html>

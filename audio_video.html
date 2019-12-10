@@ -49,6 +49,7 @@
             <p>This browser doesn't support the required audio format(s)</p>
         </audio>
 
+
         <h3>HTML5 video:</h3>
         <video width="400" height="320" preload controls loop>
             <source src="video/binary.mp4" type="video/mp4">
@@ -57,21 +58,15 @@
         </video>
 
         <h3>YouTube video:</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/8TCxE0bWQeQ" 
-        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8TCxE0bWQeQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         <p>In the videos above, one is embeded from YouTube and the other uses a video file with a specific format(s).
         </p>
-        <p>The first video (binary numbers) is "streaming" from a local file, which is stored in the websites directory,
-            accessed by a relative path, using video tags.</p>
+        <p>The first video (binary numbers) is "streaming" from a local file, which is stored in the websites directory, accessed by a relative path, using video tags.</p>
         <p>The second video, the YouTube video, is embedded in iframe tags, and uses an absolute URL.</p>
-        <p>Both videos require attributes such as width, height, and src, but they use different tags/elements to
-            achieve this.</p>
-        <p>The html video element has nested source tags to specify the source (usually more than 1 format is
-            available), whereas the YouTube video uses an iframe element to hold the src attribute.</p>
-        <p>Each of the tags also uses some of their own unique attributes, depending on if it is a YouTube video using
-            an iframe, or uses the video tags (for a file like .mp4, .mov, etc).</p>
+        <p>Both videos require attributes such as width, height, and src, but they use different tags/elements to achieve this.</p>
+        <p>The html video element has nested source tags to specify the source (usually more than 1 format is available), whereas the YouTube video uses an iframe element to hold the src attribute.</p>
+        <p>Each of the tags also uses some of their own unique attributes, depending on if it is a YouTube video using an iframe, or uses the video tags (for a file like .mp4, .mov, etc).</p>
 
     </div>
     <!---->
