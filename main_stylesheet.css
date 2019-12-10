@@ -16,6 +16,16 @@ table {
 }
 
 
+/******************************** UNDER CONSTRUCTION ********************************/
+
+.orb {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /******************************/
 
 
@@ -45,6 +55,11 @@ table {
     }
     .topnav {
         display: none;
+    }
+    .topnav h5:hover {
+        background-color: #5da800;
+        color: #e8d100;
+        border-color: #ff8c00;
     }
     .nav_menu:hover .topnav {
         display: block;
