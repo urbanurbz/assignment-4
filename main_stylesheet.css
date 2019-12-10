@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     /* universal style rules */
     
     * {
@@ -32,6 +33,46 @@
         }
     }
     
+=======
+/* universal style rules */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff8c00;
+}
+
+
+/******************************/
+
+
+/*media query for smartphones */
+
+
+/******************************/
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    /* top navigation bar */
+    .nav_menu {
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border-style: solid;
+        border-color: #0000cd;
+        background-color: #5da800;
+        margin-bottom: 50px;
+    }
+    .nav_menu {
+        background-color: #5da800;
+    }
+    .topnav {
+        display: none;
+    }
+>>>>>>> parent of da30afe... breakpoints pretty much DONE!!
     .nav_menu:hover .topnav {
         display: block;
     }
@@ -181,6 +222,7 @@
     .pic_gone {
         display: none;
     }
+<<<<<<< HEAD
     /**************************/
     /*media query for smartphone landscape view and tablet portriat view */
     /**************************/
@@ -433,3 +475,136 @@
             visibility: hidden;
         }
     }
+=======
+}
+
+
+/**************************/
+
+
+/*media query for tablets */
+
+
+/**************************/
+
+
+/*
+@media screen and (min-width: 576px) {}
+*/
+
+
+/*********************************/
+
+
+/*general content for desk/laptop*/
+
+
+/*********************************/
+
+@media screen and (min-width: 992px) {
+    .content {
+        width: 55%;
+        margin: auto;
+    }
+    /* top navigation bar */
+    .topnav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        background-color: #e8d100;
+    }
+    .topnav a {
+        background-color: #e8d100;
+        text-decoration: none;
+    }
+    .topnav h5 {
+        display: inline;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border-style: solid;
+        border-color: #0000cd;
+        background-color: #5da800;
+    }
+    .active h5,
+    .active a {
+        background-color: #0000cd;
+        color: #ff8c00;
+        border-color: #5da800;
+    }
+    .undernav {
+        margin-top: 45px;
+    }
+    /* web forms & table*/
+    .web_form,
+    .web_form form,
+    table {
+        padding: 20px;
+        margin: auto;
+        width: 55%;
+        background: #808000;
+    }
+    .web_form p,
+    table {
+        font-family: "Arial Black", Gadget, sans-serif;
+        width: fit-content;
+    }
+    .web_form legend {
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+    .web_form,
+    .web_form form,
+    .web_form p,
+    .web_form legend,
+    .web_form textarea,
+    table,
+    td,
+    th {
+        border: #0000cd;
+        border-width: 5px;
+        border-style: double;
+    }
+    .web_form a,
+    .submit {
+        border: #ff8c00;
+        border-width: 5px;
+        border-style: outset;
+        margin: auto;
+        width: 25%;
+    }
+    table {
+        margin-bottom: 10px;
+    }
+    /* assignment links */
+    .assignment {
+        color: #e8d100;
+        border: #0000cd;
+        border-width: 5px;
+        border-style: double;
+        margin-bottom: 10px;
+        padding: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 40%;
+    }
+    .assignment a {
+        color: #808000;
+    }
+    /* banner on top of webpages */
+    .banner {
+        max-width: 100%;
+        height: auto;
+    }
+    .images img {
+        width: 50%;
+        height: auto;
+    }
+    .invisible {
+        visibility: hidden;
+    }
+}
+>>>>>>> parent of da30afe... breakpoints pretty much DONE!!
