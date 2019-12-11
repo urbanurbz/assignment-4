@@ -1,4 +1,10 @@
+/*************************/
+
+
 /* universal style rules */
+
+
+/*************************/
 
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -42,13 +48,15 @@ table {
         text-align: center;
         padding-bottom: 5px;
         padding-top: 5px;
-        border-style: solid;
-        border-color: #0000cd;
-        background-color: #5da800;
+        border-bottom: 3px solid #0000cd;
+        background-color: #e8d100;
         margin-bottom: 50px;
     }
-    .nav_menu {
+    .nav_menu h5 {
         background-color: #5da800;
+        border-bottom: 2px solid #0000cd;
+        border-top: 2px solid #0000cd;
+        color: #0000cd;
     }
     .topnav {
         display: none;
@@ -59,9 +67,6 @@ table {
         border-color: #ff8c00;
     }
     .nav_menu:hover .topnav {
-        display: block;
-    }
-    .nav_menu:hover .topnav {
         position: fixed;
         top: 0;
         left: 0;
@@ -69,6 +74,8 @@ table {
         padding-bottom: 3px;
         padding-top: 3px;
         background-color: #e8d100;
+        display: block;
+        border-bottom: 3px solid #0000cd;
         z-index: 2;
     }
     .nav_menu:hover .topnav a {
@@ -203,13 +210,15 @@ table {
         text-align: center;
         padding-bottom: 5px;
         padding-top: 5px;
-        border-style: solid;
-        border-color: #0000cd;
-        background-color: #5da800;
+        border-bottom: 3px solid #0000cd;
+        background-color: #e8d100;
         margin-bottom: 50px;
     }
-    .nav_menu {
+    .nav_menu h5 {
         background-color: #5da800;
+        border-bottom: 2px solid #0000cd;
+        border-top: 2px solid #0000cd;
+        color: #0000cd;
     }
     .topnav {
         display: none;
@@ -220,9 +229,6 @@ table {
         border-color: #ff8c00;
     }
     .nav_menu:hover .topnav {
-        display: block;
-    }
-    .nav_menu:hover .topnav {
         position: fixed;
         top: 0;
         left: 0;
@@ -230,6 +236,8 @@ table {
         padding-bottom: 3px;
         padding-top: 3px;
         background-color: #e8d100;
+        display: block;
+        border-bottom: 3px solid #0000cd;
         z-index: 2;
     }
     .nav_menu:hover .topnav a {
@@ -351,6 +359,8 @@ table {
         padding-bottom: 10px;
         padding-top: 10px;
         background-color: #e8d100;
+        border-bottom: 3px solid #0000cd;
+        z-index: 1;
     }
     .topnav a {
         background-color: #e8d100;
@@ -439,7 +449,6 @@ table {
     .invisible {
         visibility: hidden;
     }
-    /************************************* UNDER CONSTRUCTION *************************************/
     .left {
         grid-area: left;
     }
