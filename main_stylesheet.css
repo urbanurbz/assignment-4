@@ -28,6 +28,54 @@ table {
     margin-right: auto;
 }
 
+ul li::before {
+    content: "\2022";
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: -1em;
+    width: 1em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.orange,
+.olive,
+.blue,
+.green,
+.yellow {
+    background-color: black;
+    border-radius: 6px;
+    margin: 3px 0px;
+    width: fit-content;
+}
+
+.orange {
+    color: #ff8c00;
+}
+
+.olive {
+    color: #808000;
+}
+
+.blue {
+    color: #0000cd;
+}
+
+.green {
+    color: #5da800;
+}
+
+.yellow {
+    color: #e8d100;
+}
+
+.form_font {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
 
 /******************************/
 
